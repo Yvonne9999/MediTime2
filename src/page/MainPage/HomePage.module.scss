@@ -1,0 +1,114 @@
+.wrap{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    position: relative;
+
+    .content{
+        position: relative;
+        width: 100%;
+        height: 80vh;
+
+        .upperR{
+            top: 0;
+            right: 0;
+        }
+        
+        .lowerL{
+            bottom: 0;
+            left: 0;
+        }
+        .lowerR{
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        height: 100%;
+
+        .leftPart{
+            z-index: 10;
+            height: 100%;
+            display: flex;
+            justify-content: right;
+            text-align: center;
+
+            .title{
+                position: relative;
+                display: flex;
+                align-items: center;
+                .bottle{
+                    height: 600px;
+                }
+                .titletext{
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    p{
+                        color: #86b63a;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 3rem;
+                    }
+                    span{
+                        color: #6995c1;
+                    }
+                }
+
+            }
+            
+        }
+
+        .rightPart{
+            height: 100%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+
+            .btn{
+                display: flex;
+                flex-direction: column;
+
+                $first-btn-color: #719d83;
+                $second-btn-color:#6995c1;
+                .introBtn{
+                    width: 150px;
+                    text-align: center;
+                    padding: 20px;
+                    margin: 20px;
+                    border-radius: 30px;
+                    transition: all 0.25s;
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 3px;
+                    }
+
+                    
+
+                    &:nth-child(1){
+                        border: 1px solid $first-btn-color;
+                        color: $first-btn-color;
+                    }
+                    &:nth-child(2){
+                        border: 1px solid $second-btn-color;
+                        color: $second-btn-color;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.pic{
+    width: 200px;
+    position: absolute;
+}
+
+
+a{
+    text-decoration: none;
+}
