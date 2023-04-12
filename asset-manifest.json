@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MediTime/static/css/main.5a4139e5.css",
+    "main.js": "/MediTime/static/js/main.c00502d1.js",
+    "static/media/demo_video.mp4": "/MediTime/static/media/demo_video.4252a57f65442f85c395.mp4",
+    "static/media/UserJourney.png": "/MediTime/static/media/UserJourney.b015bd20c3329969bcb3.png",
+    "static/media/Prototype.png": "/MediTime/static/media/Prototype.391f8ee884b553481d74.png",
+    "static/media/Product.png": "/MediTime/static/media/Product.d9a96e22af8daec6746f.png",
+    "static/media/Persona.png": "/MediTime/static/media/Persona.e0e49817ebe023a0eb79.png",
+    "static/media/EmpathyMap.png": "/MediTime/static/media/EmpathyMap.39d656a58d4dd000a791.png",
+    "static/media/Userflow.png": "/MediTime/static/media/Userflow.4d4741f1375eadffb12f.png",
+    "static/media/Bottle.png": "/MediTime/static/media/Bottle.323dfc1380d78c3dbfb8.png",
+    "static/media/Picture2.png": "/MediTime/static/media/Picture2.ecb7474584aa52c2e9b6.png",
+    "static/media/Picture1.png": "/MediTime/static/media/Picture1.069398df8b3a564a9534.png",
+    "static/media/Logo.png": "/MediTime/static/media/Logo.ae591c5520c0fa1c0030.png",
+    "static/media/LowerRight.png": "/MediTime/static/media/LowerRight.76724a400ba5de6b84f7.png",
+    "static/media/UpperRight.png": "/MediTime/static/media/UpperRight.84f48deb55846fe13be4.png",
+    "static/media/LowerLeft.png": "/MediTime/static/media/LowerLeft.b6b004ffc51fdc2cfe19.png",
+    "index.html": "/MediTime/index.html",
+    "main.5a4139e5.css.map": "/MediTime/static/css/main.5a4139e5.css.map",
+    "main.c00502d1.js.map": "/MediTime/static/js/main.c00502d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a4139e5.css",
+    "static/js/main.c00502d1.js"
+  ]
+}
